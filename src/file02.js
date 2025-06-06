@@ -40,7 +40,7 @@ const frameworks = [
  *    para agregar una nueva fila con estos datos al cuerpo de la tabla HTML.
  */
 for (let i = 0; i < frameworks.length; i++) {
-    let datos = frameworks[i].split(" | ");
+    let datos = frameworks[i].split("|");
 
     let frameworkObj = new Object();
 
